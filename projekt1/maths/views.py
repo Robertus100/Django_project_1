@@ -9,4 +9,12 @@ def div(request, x, y):
 
 
 def mul(request, x, y):
-    return HttpResponse(f'div = {x * y}')
+    return HttpResponse(f'mul = {x * y}')
+
+
+def sub(request, x, y):
+    return HttpResponse(f'sub = {x - y}')
+
+
+def add(request, x, y):
+    return HttpResponse(f'add = {x + y}')
